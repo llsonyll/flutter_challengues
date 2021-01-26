@@ -1,0 +1,30 @@
+name: flutter_challengues
+description: Proyectos varios de flutter
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  webview_flutter: ^1.0.7
+  flutter_riverpod: ^0.12.2
+  provider: ^4.3.3
+  http: ^0.12.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/pizza_challengue/
+    - assets/news_app/
