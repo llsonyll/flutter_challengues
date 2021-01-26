@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import 'CupertinoWidgets/cupertino_main.dart';
 import 'NewsApp/newsApp_main.dart';
 import 'PizzaOrderChallenge/pizzaorder_main.dart';
 import 'Riverpod/riverpod_main.dart';
@@ -25,6 +26,7 @@ class MainFlutterChallengues extends StatelessWidget {
         'pizzaorder': (BuildContext context) => PizzaOrder(),
         'riverpod': (BuildContext context) => SMwithRiverPod(),
         'newApp': (BuildContext context) => MainNewsApp(),
+        'cupertinoWidgets': (BuildContext context) => CupertinoMain(),
       },
       initialRoute: 'home',
     );

@@ -49,4 +49,12 @@ List<Challenge> challenguesList = [
     backgroundColor: Colors.blue,
     textColor: Colors.white,
   ),
+  Challenge(
+    ruta: 'cupertinoWidgets',
+    titulo: 'Cupertino Widgets',
+    descripcion: 'IOS environment',
+    icon: Icons.iso_outlined,
+    backgroundColor: Colors.purple,
+    textColor: Colors.white,
+  ),
 ];
