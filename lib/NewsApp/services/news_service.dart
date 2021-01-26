@@ -61,15 +61,4 @@ class NewsService with ChangeNotifier {
     this.newsCategoria[categoria].addAll(newsReponse.articles);
     notifyListeners();
   }
-
-  //  Future<List<Article>> getEncabezadosFuture() async {
-  //   final url = "$urlNews/top_headlines?apiKey=$apiKey&country=sa&";
-  //   final resp = await http.get(url);
-
-  //   print(resp.statusCode);
-
-  //   final newsReponse = newsarticleFromJson(resp.body);
-  //   print(newsReponse.articles[0].author);
-  //   return newsReponse.articles;
-  // }
 }
